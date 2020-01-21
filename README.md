@@ -1,4 +1,4 @@
-# Robert Herold Portfolio web site.
+# Robert Herold Portfolio
 
 This site will be an ongoing dynamic page, designed to furnish information on my experiences and coding journey.
 
