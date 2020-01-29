@@ -2,9 +2,9 @@
 
 body {
     background-image: url("../images/coding-image.jpg");
-     background-repeat: no-repeat;
-     background-size: auto;
-     
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 
     font-family:'Lato', sans-serif;
 }
