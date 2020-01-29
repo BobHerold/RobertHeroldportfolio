@@ -2,9 +2,15 @@
 
 body {
     background-image: url("../images/coding-image.jpg");
+    height:100vh;
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
 
     font-family:'Lato', sans-serif;
 }
+
