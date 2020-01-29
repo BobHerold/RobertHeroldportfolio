@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
 
 body {
+    background-image: url("../images/coding-image.jpg");
+     background-repeat: no-repeat;
+     background-size: auto;
+     
+
     font-family:'Lato', sans-serif;
 }
