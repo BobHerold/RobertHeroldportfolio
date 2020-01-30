@@ -20,3 +20,13 @@ body {
     font:bolder;
     font-weight: 700;
 }
+
+.navbar-nav-nav >li >a {
+    color:black
+}
+
+/*-------------------------------------------Heading*/
+
+.name {
+    margin-top: 30px;
+}
