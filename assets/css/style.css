@@ -21,8 +21,8 @@ body {
     font-weight: 700;
 }
 
-.navbar-nav-nav >li >a {
-    color:black
+.navbar-light .navbar-nav .nav-link{
+    color: black;
 }
 
 /*-------------------------------------------Heading*/
