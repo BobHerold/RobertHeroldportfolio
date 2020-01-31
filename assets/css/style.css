@@ -36,3 +36,15 @@ body {
     margin-bottom: 40px;
     ]
 }
+
+/*-------------------------------------------Paragraph text*/
+
+.p {
+    font:bold;
+}
+
+/*-------------------------------------------Div*/
+
+div {
+    overflow:scroll;
+}
