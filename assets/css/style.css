@@ -55,3 +55,7 @@ body {
    text-align: center;
 }
 
+.list-inline.social-links.list-inline-item a i {
+    text-align:center;
+}
+
