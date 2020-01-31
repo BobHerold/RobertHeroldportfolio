@@ -46,9 +46,12 @@ body {
 
 /*-------------------------------------------Footer*/
 
-.footer {
-background color: white;
-color: black;
-min-height: 20px;
+.footer.container {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50%
+   text-align: center;
 }
 
