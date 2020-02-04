@@ -56,7 +56,11 @@ body {
    text-align:center;
 }
 
-.social-links li a i { 
+.footer-row {
+    text-align: center
+}
+
+.list-inline .social-links li a i { 
     text-align:center;
 }
 
