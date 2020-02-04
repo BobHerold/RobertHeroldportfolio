@@ -44,6 +44,14 @@ body {
 
 /*-------------------------------------------Experience*/
 
+.experience h4 {
+    margin-top: 30px;
+}
+
+.experience .container-fluid .row.col-md-4 {
+    font: #6b0909
+}
+
 
 
 /*-------------------------------------------Footer*/
