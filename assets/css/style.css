@@ -57,6 +57,7 @@ body {
 }
 
 .footer-row {
+    position: bottom;
     text-align: center
 }
 
