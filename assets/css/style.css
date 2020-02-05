@@ -34,13 +34,14 @@ body {
 .title {
     margin-top: 20px;
     margin-bottom: 30px;
+    color:#6b0909;
     }
 
 /*-------------------------------------------Paragraph text*/
 
-.p {
-    font:bold;
-}
+.col-6-heading p {
+    color:#6b0909;
+    }
 
 /*-------------------------------------------Experience*/
 
