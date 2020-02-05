@@ -35,12 +35,14 @@ body {
     margin-top: 20px;
     margin-bottom: 30px;
     color:#6b0909;
+    font-weight: 700;
     }
 
 /*-------------------------------------------Paragraph text*/
 
 .col-6-heading p {
     color:#6b0909;
+    font-weight: bold;
     }
 
 /*-------------------------------------------Experience*/
