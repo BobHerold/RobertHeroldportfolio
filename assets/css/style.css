@@ -44,15 +44,10 @@ body {
 
 /*-------------------------------------------Experience*/
 
-.experience h4 {
+.experience  {
     margin-top: 30px;
+    color:#6b0909
 }
-
-.container-fluid .work-history {
-    font: #6b0909;
-}
-
-
 
 /*-------------------------------------------Footer*/
 
