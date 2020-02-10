@@ -17,3 +17,30 @@ with the goal of presenting information so that potential employers/recruiters w
 
  "On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have that skill set."
 
+ ## Features
+
+
+
+
+ ## Technologies Used
+
+
+
+ ## Testing
+
+
+
+## Deployment
+
+
+
+## Credits
+
+### Content
+
+### Media
+
+
+## Acknowledgements
+
+
