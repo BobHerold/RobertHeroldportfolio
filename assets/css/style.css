@@ -44,6 +44,8 @@ body {
     font-weight: bold;
     }
 
+/* All styling code below this point is from w3schools for the timeline */
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -167,6 +169,10 @@ body {
   .right {
   left: 0%;
   }
+
+/*--------End of w3schools code-----------*/
+
+
 
 
 /*-------------------------------------------Footer*/
