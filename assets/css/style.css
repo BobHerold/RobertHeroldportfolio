@@ -44,6 +44,8 @@ body.page-id-1 {
     font-weight: bold;
     }
 
+/*---ALL CODE BELOW WAS TAKEN FROM W3SCHOOLS.com-----*/
+
 
 .body.page-id-2 {
        box-sizing: border-box;
@@ -55,7 +57,7 @@ body.page-id-2 {
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline.page-id-2 {
+.timeline-page-id-2 {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
