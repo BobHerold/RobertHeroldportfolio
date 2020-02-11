@@ -44,10 +44,18 @@ body.page-id-1 {
     font-weight: bold;
     }
 
-/* All styling code below this point is from w3schools for the timeline */
+
+.body.page-id-2 {
+       box-sizing: border-box;
+}
+
+body.page-id-2 {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
 
 /* The actual timeline (the vertical ruler) */
-.timeline {
+.timeline.page-id-2 {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
@@ -169,6 +177,8 @@ body.page-id-1 {
   .right {
   left: 0%;
   }
+
+
 
 /*--------End of w3schools code-----------*/
 
