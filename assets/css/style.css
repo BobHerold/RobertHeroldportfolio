@@ -47,25 +47,97 @@ body.page-id-1 {
 
 
 
-/* Code from Siddharth Panchal */   
+/* ----All css code below is from Siddharth Panchal; 
+"Timeline Using CSS"
+Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE  ;
+ except for body class========= */ 
+
+
 a{text-decoration:none}
 h4{text-align:center;margin:30px 0;color:#444}
 
 /* TODO: Update styling for this section and format to match rest of CSS */ 
-.main-timeline
-{
+.main-timeline{
   overflow:hidden;
-  position:relative
+  position:relative;
 }
-.main-timeline:before{content:"";width:7px;height:100%;background:#909090;position:absolute;top:0;left:50%;transform:translateX(-50%)}
-.main-timeline .timeline-element{width:50%;padding-left:50px;float:right;position:relative}
-.main-timeline .timeline-element:after,.main-timeline .timeline-element:before{position:absolute;content:"";top:50%;transform:translateY(-50%)}
-.main-timeline .timeline-element:before{width:30px;height:30px;border-radius:50%;background:#909090;border:7px solid #fff;left:-15px}
-.main-timeline .timeline-element:after{display:block;border-right:30px solid #ee4423;border-top:20px solid transparent;border-bottom:20px solid transparent;left:24px}
-.main-timeline .timeline-content{display:block;padding:25px;border-radius:100px;background:#ee4423;position:relative}
-.main-timeline .timeline-content:after,.main-timeline .timeline-content:before{content:"";display:block;width:100%;clear:both}
-.main-timeline .timeline-content:hover{text-decoration:none}
-.main-timeline .inner-content{width:70%;float:right;padding:15px 20px 15px 15px;background:#fff;border-radius:0 100px 100px 0;color:#ee4423}
+.main-timeline:before{
+    content:"";
+    width:7px;
+    height:100%;
+    background:#909090;
+    position:absolute;
+    top:0;left:50%;
+    transform:translateX(-50%);
+    }
+
+
+.main-timeline .timeline-element{
+    width:50%;
+    padding-left:50px;
+    float:right;
+    position:relative;
+    }
+
+
+.main-timeline .timeline-element:after,.main-timeline .timeline-element:before{
+    position:absolute;
+    content:"";
+    top:50%;
+    transform:translateY(-50%);
+    }
+
+    
+.main-timeline .timeline-element:before{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:#909090;
+    border:7px solid #fff;
+    left:-15px;
+    }
+
+
+.main-timeline .timeline-element:after{
+    display:block;
+    border-right:30px solid #ee4423;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    left:24px;
+    }
+
+.main-timeline .timeline-content{
+    display:block;
+    padding:25px;
+    border-radius:100px;
+    background:#ee4423;
+    position:relative;
+    }
+
+
+.main-timeline .timeline-content:after,.main-timeline .timeline-content:before{
+    content:"";
+    display:block;
+    width:100%;
+    clear:both;
+    }
+
+
+.main-timeline .timeline-content:hover{
+    text-decoration:none;
+    }
+
+
+.main-timeline .inner-content {
+    width:70%;
+    float:right;
+    padding:15px 20px 15px 15px;
+    background:#fff;
+    border-radius:0 100px 100px 0;
+    color:#ee4423;
+    }
+
+    
 .main-timeline .year{display:inline-block;font-size:50px;font-weight:600;color:#fff;position:absolute;top:50%;left:7%;transform:translateY(-50%)}
 .main-timeline .title{font-size:24px;font-weight:600;text-transform:uppercase;margin:0 0 5px}
 .main-timeline .description{font-size:14px;margin:0 0 5px}
@@ -113,6 +185,8 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline .inner-content{width:80%}
 .main-timeline .year{font-size:30px}
 }
+
+/* ------------------------- End of css code from Siddharth Panchal -------------------*/
 
 
 /*-------------------------------------------Footer*/
