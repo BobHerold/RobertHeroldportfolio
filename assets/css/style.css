@@ -45,10 +45,10 @@ body.page-id-1 {
     }
 
 
-.body.page-id-2 {
-       box-sizing: border-box;
-}
 
+
+    
+/* Start of W3Schools code------------------------------------------ */ 
 body.page-id-2 {
   background-color: #474e5d;
   font-family: Helvetica, sans-serif;
@@ -74,7 +74,7 @@ body.page-id-2 {
 }
 
 /* Container around content */
-.container {
+.timeline-element {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -82,7 +82,7 @@ body.page-id-2 {
 }
 
 /* The circles on the timeline */
-.container::after {
+.timeline-element::after {
   content: '';
   position: absolute;
   width: 25px;
