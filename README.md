@@ -40,6 +40,9 @@ with the goal of presenting information so that potential employers/recruiters w
 
 ### Media
 
+   1. Adobe Color for choosing a color palette for overall use on entire site; https://color.adobe.com/create#
+   
+
 
 ## Acknowledgements
 
