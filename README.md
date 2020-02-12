@@ -38,10 +38,16 @@ with the goal of presenting information so that potential employers/recruiters w
 
 ### Content
 
+   1. HTML & CSS Timeline code directly from;  Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE "Timeline Using CSS"  Timeline Demo #11.
+      Used on my Experience page.
+
+
 ### Media
 
    1. Adobe Color for choosing a color palette for overall use on entire site; https://color.adobe.com/create#
-   
+
+   2. Used https://tinyjpg.com/   to compress .jpg images down to smaller size for better more efficient loading of web site.
+
 
 
 ## Acknowledgements
