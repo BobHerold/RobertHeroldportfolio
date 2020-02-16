@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
 
-body.page-id-1 {
+/* body.page-id-1 {
     height:150vh;
     background-repeat: no-repeat;
     background-size: auto;
@@ -9,6 +9,10 @@ body.page-id-1 {
     -o-background-size: cover;
     
     font-family:'Lato', sans-serif;
+} */
+
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -25,7 +29,7 @@ body.page-id-1 {
 .nav-item a {
   display: block;
   color: #F9F871;
-  padding: 8px 16px;
+  /* padding: 8px 5px; */
 }
 
 /* Change the link color on hover */
@@ -40,6 +44,11 @@ body.page-id-1 {
     font:bolder;
     font-weight: 700;
     text-decoration: none;
+}
+
+.navbar-brand:hover{
+    background-color: #FF5B98;
+    color: #FFC359;
 }
 
 
