@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
 
 body.page-id-1 {
-    background-image:;
     height:150vh;
     background-repeat: no-repeat;
     background-size: auto;
@@ -14,6 +13,10 @@ body.page-id-1 {
 
 
 /*-------------------------------------------Navbar*/
+
+.navbar {
+    background-color: #b3370a;
+}
 
 .logo {
     font:bolder;
