@@ -15,28 +15,28 @@ body.page-id-1 {
 /*-------------------------------------------Navbar*/
 
 .navbar {
-    background-color: #b3370a;
+    background-color: #475CDA;
 }
 
 .navbar-nav {
-    background-color:#b3370a;
+    background-color:#475CDA;
 }
 
 .nav-item a {
   display: block;
-  color: black;
+  color: #F9F871;
   padding: 8px 16px;
 }
 
 /* Change the link color on hover */
 .nav-item a:hover {
-  background-color: #FF6B36;
-  color: #1CFFD2;
+  background-color: #FF5B98;
+  color: #FFC359;
 }
 
 
 .logo {
-    color: #1CFFD2;
+    color: #F1EDFF;
     font:bolder;
     font-weight: 700;
     text-decoration: none;
