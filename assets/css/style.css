@@ -64,6 +64,7 @@ body {
  }
  
  .footer-row {
+     margin-top: 1em;
      position: bottom;
      text-align: center
  }
@@ -85,7 +86,45 @@ body {
     margin-bottom: 30px;
     color:#6b0909;
     font-weight: 700;
-    }
+}
+
+.home-page-content {
+    margin-top: 3em;
+    color: #F1EDFF;
+    background-color: #475CDA;
+    border-radius: 1.5em;
+    padding-top: 0.75em;
+    border: 0.5em solid #475CDA;
+}
+
+.home-page-content h1{
+    margin-left: 50%;
+}
+
+.home-page-content h5{
+    margin-left: 50%;
+}
+
+.profile-picture {
+    width: 15.625em;
+    height: 15.625em;
+    border-radius: 50%;
+    background-image: url("../images/BobHerold.jpg");
+    background-position: -2em;
+    background-size: cover;
+
+    margin-top: 3em;
+    margin-bottom: -6em;
+    margin-left: 12.5%;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); 
+
+    border: 0.05em solid #FF8A6E;
+}
 
 /*-------------------------------------------Paragraph text*/
 
