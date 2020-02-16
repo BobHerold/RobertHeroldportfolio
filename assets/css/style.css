@@ -18,14 +18,33 @@ body.page-id-1 {
     background-color: #b3370a;
 }
 
-.logo {
-    font:bolder;
-    font-weight: 700;
+.navbar-nav {
+    background-color:#b3370a;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: black;
+.nav-item a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
 }
+
+/* Change the link color on hover */
+.nav-item a:hover {
+  background-color: #FF6B36;
+  color: #1CFFD2;
+}
+
+
+.logo {
+    color: #1CFFD2;
+    font:bolder;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
 
 /*-------------------------------------------Heading*/
 
