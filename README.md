@@ -66,6 +66,8 @@ with the goal of presenting information so that potential employers/recruiters w
 
 1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.
 
-2. My son Dakota Herold for his programming recommendations and advice.
+2. Mentor Sandeep Aggarwal for architecture inspiration and advice.
+
+3. My son Dakota Herold for his programming recommendations and advice.
 
 
