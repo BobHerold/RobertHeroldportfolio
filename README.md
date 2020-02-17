@@ -24,6 +24,16 @@ with the goal of presenting information so that potential employers/recruiters w
 
  ## Technologies Used
 
+ 1. HTML, CSS, Bootstrap4
+
+ 2. Visual Studio Code
+
+ 3. Sourcetree
+
+ 4. Github
+
+ 5. Gitpod
+
 
 
  ## Testing
@@ -46,10 +56,16 @@ with the goal of presenting information so that potential employers/recruiters w
 
    1. Adobe Color for choosing a color palette for overall use on entire site; https://color.adobe.com/create#
 
+   2. Colorspace for my final color palette;  https://mycolor.space/
+
    2. Used https://tinyjpg.com/   to compress .jpg images down to smaller size for better more efficient loading of web site.
 
 
 
 ## Acknowledgements
+
+1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.
+
+2. My son Dakota Herold for his programming recommendations and advice.
 
 
