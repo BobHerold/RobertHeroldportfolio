@@ -414,21 +414,70 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
         left:10px;
         transform:translateX(0)
     }
-.main-timeline .timeline-element:nth-child(2n):after{border-left:none;border-right:30px solid #ee4423;right:auto;left:24px;border-right-color:#f68829}
-.main-timeline .timeline-element,.main-timeline .timeline-element:nth-child(even),.main-timeline .timeline-element:nth-child(odd){width:100%;float:none;margin:0 0 30px}
-.main-timeline .timeline-element:last-child{margin-bottom:0}
-.main-timeline .timeline-element:nth-child(2n){padding:0 0 0 50px}
-.main-timeline .timeline-element:before,.main-timeline .timeline-element:nth-child(2n):before{left:-2px}
-.main-timeline .inner-content{width:85%}
-.main-timeline .timeline-element:nth-child(2n) .inner-content{float:right;border-radius:0 100px 100px 0;text-align:left}
-.main-timeline .timeline-element:nth-child(2n) .year{right:auto;left:0}
-.main-timeline .timeline-element:nth-child(3n):after{border-left-color:#2991d0}
-.main-timeline .timeline-element:nth-child(4n):after{border-right-color:#9361aa}
-.main-timeline .timeline-element:nth-child(5n):after{border-left-color:#a7be26}
+.main-timeline .timeline-element:nth-child(2n):after {
+    border-left:none;
+    border-right:30px solid #ee4423;
+    right:auto;
+    left:24px;
+    border-right-color:#f68829;
 }
-@media only screen and (max-width:479px){.main-timeline .timeline-content{padding:15px}
-.main-timeline .inner-content{width:80%}
-.main-timeline .year{font-size:30px}
+
+.main-timeline .timeline-element,.main-timeline .timeline-element:nth-child(even),.main-timeline .timeline-element:nth-child(odd) {
+    width:100%;
+    float:none;
+    margin:0 0 30px;
+}
+.main-timeline .timeline-element:last-child {
+    margin-bottom:0;
+}
+
+.main-timeline .timeline-element:nth-child(2n) {
+    padding:0 0 0 50px;
+}
+
+.main-timeline .timeline-element:before,.main-timeline .timeline-element:nth-child(2n):before {
+    left:-2px;
+}
+
+.main-timeline .inner-content {
+     width:85%;
+}
+
+.main-timeline .timeline-element:nth-child(2n) .inner-content {
+    float:right;
+    border-radius:0 100px 100px 0;
+    text-align:left;
+}
+
+.main-timeline .timeline-element:nth-child(2n) .year {
+    right:auto;
+    left:0;
+}
+
+.main-timeline .timeline-element:nth-child(3n):after {
+    border-left-color:#2991d0;
+}
+
+.main-timeline .timeline-element:nth-child(4n):after {
+    border-right-color:#9361aa;
+}
+
+.main-timeline .timeline-element:nth-child(5n):after {
+    border-left-color:#a7be26;
+}
+
+}
+
+@media only screen and (max-width:479px) {
+    .main-timeline .timeline-content {
+        padding:15px;
+}
+.main-timeline .inner-content {
+    width:80%;
+}
+.main-timeline .year {
+    font-size:30px;
+}
 }
 
 /* ------------------------- End of css code from Siddharth Panchal -------------------*/
