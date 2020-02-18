@@ -237,7 +237,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:after {
     display: block;
-    border-right: 30px solid #FF5B98;
+    border-right: 30px solid #0091C2;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     left: 24px;
@@ -373,7 +373,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:nth-child(3n),
 .main-timeline .timeline-element:nth-child(3n) .inner-content {
-    color: #2991d0;
+    color: #0091C2;
 }
 
 
