@@ -400,11 +400,11 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:nth-child(5n),
 .main-timeline .timeline-element:nth-child(5n) .inner-content {
-    color: #a7be26;
+    color: #009D73;
 }
 
 .main-timeline .timeline-element:nth-child(5n):after {
-    border-right-color: #a7be26;
+    border-right-color: #009D73;
 }
 
 @media only screen and (max-width:1200px) {
