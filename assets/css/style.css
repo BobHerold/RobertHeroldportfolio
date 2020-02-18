@@ -486,6 +486,10 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 /* ------------------------- SKILLs -------------------*/
 
+.row-skills {
+    text-align: center
+}
+
 .center {
     text-align: center
 }
