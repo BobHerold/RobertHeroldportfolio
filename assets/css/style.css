@@ -387,11 +387,11 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:nth-child(4n),
 .main-timeline .timeline-element:nth-child(4n) .inner-content {
-    color: #9361aa;
+    color: #CC50C3;
 }
 
 .main-timeline .timeline-element:nth-child(4n):after {
-    border-left-color: #9361aa;
+    border-left-color: #CC50C3;
 }
 
 .main-timeline .timeline-element:nth-child(5n) .timeline-content {
