@@ -486,7 +486,9 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 /* ------------------------- SKILLs -------------------*/
 
-
+.center {
+    text-align: center
+}
 
 
 /* ------------------------- Resume -------------------*/
