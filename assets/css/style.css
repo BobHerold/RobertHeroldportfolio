@@ -161,11 +161,15 @@ body {
 
 
 
-/* ------------------------- Experience -------------------*/
+/* ------------------------- Experience Timeline -------------------*/
+
+
 /* ----All css code below is from Siddharth Panchal; 
 "Timeline Using CSS"
 Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE  ;
- except for body class========= */
+ 
+  I have modified the background, arrow, and inner content colors of the timeline elements to match mycolor.space Generic & Matching Gradient
+   color palette for my base color of #475CDA========= */
 
 
 .timeline-content a {
@@ -178,8 +182,8 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     color: #444
 }
 
-/* TODO: Update styling for this section and format to match rest of CSS */
-/* .timeline-padding {
+
+ .timeline-padding {
     overflow:hidden;
     position:relative;
     content:"";
@@ -189,7 +193,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     position:absolute;
     top:0;left:50%;
     transform:translateX(-50%);
-} */
+} 
 
 .main-timeline {
     overflow: hidden;
