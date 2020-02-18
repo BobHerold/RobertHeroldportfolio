@@ -88,7 +88,7 @@ body {
  }
 
 
-/* ------------------------- Home -------------------*/
+/* ------------------------- Home Page Content-------------------*/
 /*-------------------------------------------Heading*/
 
 .name {
@@ -96,7 +96,7 @@ body {
 }
 
 .title {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 30px;
     color:#6b0909;
     font-weight: 700;
