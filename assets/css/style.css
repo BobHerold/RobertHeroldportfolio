@@ -324,7 +324,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border-left: 30px solid #ee4423;
     left: auto;
     right: 24px;
-    border-left-color: #f68829;
+    border-left-color: #FFC359;
 }
 
 
@@ -363,7 +363,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:nth-child(2n),
 .main-timeline .timeline-element:nth-child(2n) .inner-content {
-    color: #f68829;
+    color: #FFC359;
 }
 
 
