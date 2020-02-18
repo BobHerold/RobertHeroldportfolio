@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-    background-color:#FFC359 !important;
+    background-color: #FFC359 !important;
 }
 
 
@@ -29,30 +29,30 @@ body {
 }
 
 .navbar-nav {
-    background-color:#475CDA;
+    background-color: #475CDA;
 }
 
 .nav-item a {
-  display: block;
-  color: #F9F871;
-  /* padding: 8px 5px; */
+    display: block;
+    color: #F9F871;
+    /* padding: 8px 5px; */
 }
 
 /* Change the link color on hover */
 .nav-item a:hover {
-  background-color: #FF5B98;
-  color: #FFC359;
- }
+    background-color: #FF5B98;
+    color: #FFC359;
+}
 
 
 .navbar-brand {
     color: #FFC359;
-    font:bolder;
+    font: bolder;
     font-weight: 700;
     text-decoration: none;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     background-color: #FF5B98;
     color: #FFC359;
 }
@@ -73,23 +73,23 @@ body {
 
 /*-------------------------------------------Footer*/
 
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 50%;
-    text-align:center;
- }
- 
- .footer-row {
-     margin-top: 4em;
-     position: bottom;
-     text-align: center
- }
- 
- .footer .list-inline .social-links li a i { 
-     text-align:center;
- }
+    text-align: center;
+}
+
+.footer-row {
+    margin-top: 4em;
+    position: bottom;
+    text-align: center
+}
+
+.footer .list-inline .social-links li a i {
+    text-align: center;
+}
 
 
 /* ------------------------- Home Page Content-------------------*/
@@ -100,7 +100,7 @@ body {
 .title {
     margin-top: 60px;
     margin-bottom: 30px;
-    color:#F9F871;
+    color: #F9F871;
     font-weight: 500;
 }
 
@@ -112,16 +112,16 @@ body {
     padding-top: 0.75em;
     border: 0.5em solid #475CDA;
     height: 100%;
-    
+
 }
 
-.home-page-content h1{
+.home-page-content h1 {
     margin-top: -4em;
     margin-left: 50%;
     color: #F9F871;
 }
 
-.home-page-content h5{
+.home-page-content h5 {
     margin-left: 50%;
 }
 
@@ -137,7 +137,7 @@ body {
     background-image: url("../images/BobHerold.jpg");
     background-position: -2em;
     background-size: cover;
-    
+
 
     margin-top: 3em;
     margin-bottom: -6em;
@@ -147,7 +147,7 @@ body {
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
 
     border: 0.05em solid #FF8A6E;
 }
@@ -165,13 +165,20 @@ body {
 /* ----All css code below is from Siddharth Panchal; 
 "Timeline Using CSS"
 Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE  ;
- except for body class========= */ 
+ except for body class========= */
 
 
-.timeline-content a{text-decoration:none}
-.timeline-content h3{text-align:center;margin:30px 0;color:#444}
+.timeline-content a {
+    text-decoration: none
+}
 
-/* TODO: Update styling for this section and format to match rest of CSS */ 
+.timeline-content h3 {
+    text-align: center;
+    margin: 30px 0;
+    color: #444
+}
+
+/* TODO: Update styling for this section and format to match rest of CSS */
 /* .timeline-padding {
     overflow:hidden;
     position:relative;
@@ -184,322 +191,340 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     transform:translateX(-50%);
 } */
 
-.main-timeline{
-  overflow:hidden;
-  position:relative;
-}
-.main-timeline:before{
-    content:"";
-    width:7px;
-    height:100%;
-    background:#909090;
-    position:absolute;
-    top:0px;left:50%;
-    transform:translateX(-50%);
+.main-timeline {
+    overflow: hidden;
+    position: relative;
 }
 
-
-.main-timeline .timeline-element{
-    width:50%;
-    padding-left:50px;
-    float:right;
-    position:relative;
+.main-timeline:before {
+    content: "";
+    width: 7px;
+    height: 100%;
+    background: #909090;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
-.main-timeline .timeline-element:after,.main-timeline .timeline-element:before{
-    position:absolute;
-    content:"";
-    top:50%;
-    transform:translateY(-50%);
+.main-timeline .timeline-element {
+    width: 50%;
+    padding-left: 50px;
+    float: right;
+    position: relative;
 }
 
-    
-.main-timeline .timeline-element:before{
-    width:30px;
-    height:30px;
-    border-radius:50%;
-    background:#909090;
-    border:7px solid #fff;
-    left:-15px;
-    }
+
+.main-timeline .timeline-element:after,
+.main-timeline .timeline-element:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
-.main-timeline .timeline-element:after{
-    display:block;
-    border-right:30px solid #ee4423;
-    border-top:20px solid transparent;
-    border-bottom:20px solid transparent;
-    left:24px;
-    }
-
-.main-timeline .timeline-content{
-    display:block;
-    padding:25px;
-    border-radius:100px;
-    background:#ee4423;
-    position:relative;
-    }
+.main-timeline .timeline-element:before {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #909090;
+    border: 7px solid #fff;
+    left: -15px;
+}
 
 
-.main-timeline .timeline-content:after,.main-timeline .timeline-content:before{
-    content:"";
-    display:block;
-    width:100%;
-    clear:both;
-    }
+.main-timeline .timeline-element:after {
+    display: block;
+    border-right: 30px solid #ee4423;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    left: 24px;
+}
+
+.main-timeline .timeline-content {
+    display: block;
+    padding: 25px;
+    border-radius: 100px;
+    background: #ee4423;
+    position: relative;
+}
 
 
-.main-timeline .timeline-content:hover{
-    text-decoration:none;
-    }
+.main-timeline .timeline-content:after,
+.main-timeline .timeline-content:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+
+.main-timeline .timeline-content:hover {
+    text-decoration: none;
+}
 
 
 .main-timeline .inner-content {
-    width:70%;
-    float:right;
-    padding:15px 20px 15px 15px;
-    background:#fff;
-    border-radius:0 100px 100px 0;
-    color:#ee4423;
-    }
+    width: 70%;
+    float: right;
+    padding: 15px 20px 15px 15px;
+    background: #fff;
+    border-radius: 0 100px 100px 0;
+    color: #ee4423;
+}
 
 
-.main-timeline .year{
-    display:inline-block;
-    font-size:50px;
-    font-weight:600;
-    color:#fff;
-    position:absolute;
-    top:50%;
-    left:7%;
-    transform:translateY(-50%);
-    }
+.main-timeline .year {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
 
 
 .main-timeline .title {
-    font-size:24px;
-    font-weight:600;
-    text-transform:uppercase;
-    margin:0 0 5px;
-    }
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
 
 
 .main-timeline .description {
-    font-size:14px;
-    margin:0 0 5px;
-    }
+    font-size: 14px;
+    margin: 0 0 5px;
+}
 
 
 .main-timeline .timeline-element:nth-child(2n) {
-    padding:0 50px 0 0;
-    }
+    padding: 0 50px 0 0;
+}
 
 
-.main-timeline .timeline-element:nth-child(2n) .year,.main-timeline .timeline-element:nth-child(2n):before {
-    left:auto;
-    right:-15px;
-    }
+.main-timeline .timeline-element:nth-child(2n) .year,
+.main-timeline .timeline-element:nth-child(2n):before {
+    left: auto;
+    right: -15px;
+}
 
 
 .main-timeline .timeline-element:nth-child(2n) .year {
-    right:7%;
-    }
+    right: 7%;
+}
 
 
 .main-timeline .timeline-element:nth-child(2n):after {
-    border-right:none;
-    border-left:30px solid #ee4423;
-    left:auto;
-    right:24px;
-    border-left-color:#f68829;
-    }
+    border-right: none;
+    border-left: 30px solid #ee4423;
+    left: auto;
+    right: 24px;
+    border-left-color: #f68829;
+}
 
 
 .main-timeline .timeline-element:nth-child(2n) .inner-content {
-    float:none;
-    border-radius:100px 0 0 100px;
-    text-align:right;
-    }
+    float: none;
+    border-radius: 100px 0 0 100px;
+    text-align: right;
+}
 
 
 .main-timeline .timeline-element:nth-child(2) {
-    margin-top:130px;
-    }
+    margin-top: 130px;
+}
 
 
 .main-timeline .timeline-element:nth-child(odd) {
-    margin:-130px 0 0;
-    }
+    margin: -130px 0 0;
+}
 
 
 .main-timeline .timeline-element:nth-child(even) {
-    margin-bottom:80px;
-    }
+    margin-bottom: 80px;
+}
 
 
-.main-timeline .timeline-element:first-child,.main-timeline .timeline-element:last-child:nth-child(even) {
-    margin:0;
+.main-timeline .timeline-element:first-child,
+.main-timeline .timeline-element:last-child:nth-child(even) {
+    margin: 0;
 }
 
 
 .main-timeline .timeline-element:nth-child(2n) .timeline-content {
-    background:#f68829;
-    
-    }
-.main-timeline .timeline-element:nth-child(2n),.main-timeline .timeline-element:nth-child(2n) .inner-content {
-    color:#f68829;
-    }
+    background: #f68829;
+
+}
+
+.main-timeline .timeline-element:nth-child(2n),
+.main-timeline .timeline-element:nth-child(2n) .inner-content {
+    color: #f68829;
+}
 
 
 .main-timeline .timeline-element:nth-child(3n) .timeline-content {
-    background:#2991d0;
-    }
+    background: #2991d0;
+}
 
-.main-timeline .timeline-element:nth-child(3n),.main-timeline .timeline-element:nth-child(3n) .inner-content {
-    color:#2991d0;
-    }
+.main-timeline .timeline-element:nth-child(3n),
+.main-timeline .timeline-element:nth-child(3n) .inner-content {
+    color: #2991d0;
+}
 
-    
+
 .main-timeline .timeline-element:nth-child(3n):after {
-    border-right-color:#2991d0;
-    }
+    border-right-color: #2991d0;
+}
 
 .main-timeline .timeline-element:nth-child(4n) .timeline-content {
-    background:#9361aa;
-    }
+    background: #9361aa;
+}
 
-.main-timeline .timeline-element:nth-child(4n),.main-timeline .timeline-element:nth-child(4n) .inner-content {
-    color:#9361aa;
-    }
+.main-timeline .timeline-element:nth-child(4n),
+.main-timeline .timeline-element:nth-child(4n) .inner-content {
+    color: #9361aa;
+}
 
 .main-timeline .timeline-element:nth-child(4n):after {
-    border-left-color:#9361aa;
-    }
+    border-left-color: #9361aa;
+}
 
 .main-timeline .timeline-element:nth-child(5n) .timeline-content {
-    background:#a7be26;
-    }
-
-.main-timeline .timeline-element:nth-child(5n),.main-timeline .timeline-element:nth-child(5n) .inner-content {
-    color:#a7be26;
-    }
-
-.main-timeline .timeline-element:nth-child(5n):after {
-    border-right-color:#a7be26;
-    }
-
-@media only screen and (max-width:1200px){.main-timeline .inner-content {
-    width:80%;
-    }
-
-.main-timeline .year {
-    font-size:45px;
-    left:10px;
-    transform:translateY(-50%) rotate(-90deg);
-    }
-
-.main-timeline .timeline-element:nth-child(2n) .year {
-    right:10px;
-    }
-
-@media only screen and (max-width:990px){
-    .main-timeline .year{
-        font-size:40px;
-        left:0
-    }
-.main-timeline .timeline-element:nth-child(2n) .year{ 
-    right:0
-}
-}
-@media only screen and (max-width:767px){
-    .main-timeline .timeline-element:before,.main-timeline:before {
-        left:10px;
-        transform:translateX(0)
-    }
-.main-timeline .timeline-element:nth-child(2n):after {
-    border-left:none;
-    border-right:30px solid #ee4423;
-    right:auto;
-    left:24px;
-    border-right-color:#f68829;
+    background: #a7be26;
 }
 
-.main-timeline .timeline-element,.main-timeline .timeline-element:nth-child(even),.main-timeline .timeline-element:nth-child(odd) {
-    width:100%;
-    float:none;
-    margin:0 0 30px;
-}
-.main-timeline .timeline-element:last-child {
-    margin-bottom:0;
-}
-
-.main-timeline .timeline-element:nth-child(2n) {
-    padding:0 0 0 50px;
-}
-
-.main-timeline .timeline-element:before,.main-timeline .timeline-element:nth-child(2n):before {
-    left:-2px;
-}
-
-.main-timeline .inner-content {
-     width:85%;
-}
-
-.main-timeline .timeline-element:nth-child(2n) .inner-content {
-    float:right;
-    border-radius:0 100px 100px 0;
-    text-align:left;
-}
-
-.main-timeline .timeline-element:nth-child(2n) .year {
-    right:auto;
-    left:0;
-}
-
-.main-timeline .timeline-element:nth-child(3n):after {
-    border-left-color:#2991d0;
-}
-
-.main-timeline .timeline-element:nth-child(4n):after {
-    border-right-color:#9361aa;
+.main-timeline .timeline-element:nth-child(5n),
+.main-timeline .timeline-element:nth-child(5n) .inner-content {
+    color: #a7be26;
 }
 
 .main-timeline .timeline-element:nth-child(5n):after {
-    border-left-color:#a7be26;
+    border-right-color: #a7be26;
 }
 
-}
+@media only screen and (max-width:1200px) {
+    .main-timeline .inner-content {
+        width: 80%;
+    }
 
-@media only screen and (max-width:479px) {
-    .main-timeline .timeline-content {
-        padding:15px;
-}
-.main-timeline .inner-content {
-    width:80%;
-}
-.main-timeline .year {
-    font-size:30px;
-}
-}
+    .main-timeline .year {
+        font-size: 45px;
+        left: 10px;
+        transform: translateY(-50%) rotate(-90deg);
+    }
 
-/* ------------------------- End of css code from Siddharth Panchal -------------------*/
+    .main-timeline .timeline-element:nth-child(2n) .year {
+        right: 10px;
+    }
+
+    @media only screen and (max-width:990px) {
+        .main-timeline .year {
+            font-size: 40px;
+            left: 0
+        }
+
+        .main-timeline .timeline-element:nth-child(2n) .year {
+            right: 0
+        }
+    }
+
+    @media only screen and (max-width:767px) {
+
+        .main-timeline .timeline-element:before,
+        .main-timeline:before {
+            left: 10px;
+            transform: translateX(0)
+        }
+
+        .main-timeline .timeline-element:nth-child(2n):after {
+            border-left: none;
+            border-right: 30px solid #ee4423;
+            right: auto;
+            left: 24px;
+            border-right-color: #f68829;
+        }
+
+        .main-timeline .timeline-element,
+        .main-timeline .timeline-element:nth-child(even),
+        .main-timeline .timeline-element:nth-child(odd) {
+            width: 100%;
+            float: none;
+            margin: 0 0 30px;
+        }
+
+        .main-timeline .timeline-element:last-child {
+            margin-bottom: 0;
+        }
+
+        .main-timeline .timeline-element:nth-child(2n) {
+            padding: 0 0 0 50px;
+        }
+
+        .main-timeline .timeline-element:before,
+        .main-timeline .timeline-element:nth-child(2n):before {
+            left: -2px;
+        }
+
+        .main-timeline .inner-content {
+            width: 85%;
+        }
+
+        .main-timeline .timeline-element:nth-child(2n) .inner-content {
+            float: right;
+            border-radius: 0 100px 100px 0;
+            text-align: left;
+        }
+
+        .main-timeline .timeline-element:nth-child(2n) .year {
+            right: auto;
+            left: 0;
+        }
+
+        .main-timeline .timeline-element:nth-child(3n):after {
+            border-left-color: #2991d0;
+        }
+
+        .main-timeline .timeline-element:nth-child(4n):after {
+            border-right-color: #9361aa;
+        }
+
+        .main-timeline .timeline-element:nth-child(5n):after {
+            border-left-color: #a7be26;
+        }
+
+    }
+
+    @media only screen and (max-width:479px) {
+        .main-timeline .timeline-content {
+            padding: 15px;
+        }
+
+        .main-timeline .inner-content {
+            width: 80%;
+        }
+
+        .main-timeline .year {
+            font-size: 30px;
+        }
+    }
+
+    /* ------------------------- End of css code from Siddharth Panchal -------------------*/
 
 
 
-/* ------------------------- SKILLs -------------------*/
+    /* ------------------------- SKILLs -------------------*/
 
 
 
-/*.center {
+    /*.center {
     text-align: center
     
 }*/
 
 
-/* ------------------------- Resume -------------------*/
-
-
-
-
-
+    /* ------------------------- Resume -------------------*/
