@@ -38,6 +38,8 @@ with the goal of presenting information so that potential employers/recruiters w
 
  ## Testing
 
+ 1.http://ami.responsivedesign.is/
+
 
 
 ## Deployment
@@ -58,7 +60,10 @@ with the goal of presenting information so that potential employers/recruiters w
 
    2. Colorspace for my final color palette;  https://mycolor.space/
 
-   2. Used https://tinyjpg.com/   to compress .jpg images down to smaller size for better more efficient loading of web site.
+   3. Used https://tinyjpg.com/   to compress .jpg images down to smaller size for better more efficient loading of web site.
+
+   4. Am I Responsive web site for checking responsiveness on all screen sizes;
+   http://ami.responsivedesign.is/
 
 
 
