@@ -237,7 +237,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:after {
     display: block;
-    border-right: 30px solid #ee4423;
+    border-right: 30px solid #FF5B98;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     left: 24px;
@@ -272,7 +272,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     padding: 15px 20px 15px 15px;
     background: #fff;
     border-radius: 0 100px 100px 0;
-    color: #ee4423;
+    color: #FF5B98;
 }
 
 
