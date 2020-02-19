@@ -17,9 +17,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.card {
-    background-color: #FF8A6E !important;
-}
 
 
 /*-------------------------------------------Navbar*/
@@ -170,6 +167,10 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
  
   I have modified the background, arrow, and inner content colors of the timeline elements to match mycolor.space Generic & Matching Gradient
    color palette for my base color of #475CDA========= */
+
+.container {
+    margin-top: 3em;
+}
 
 
 .timeline-content a {
