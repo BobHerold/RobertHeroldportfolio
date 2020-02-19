@@ -206,6 +206,14 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     transform: translateX(-50%);
 }
 
+/*TODO: Adjust media queries for smaller resolutions*/
+.main-timeline .timeline-element:nth-child(odd) .title {
+    padding-right: 1.25em;
+}
+
+/* .main-timeline .timeline-element:nth-child(even) .title {
+    padding-left: -0.75em;
+} */
 
 .main-timeline .timeline-element {
     width: 50%;
@@ -511,6 +519,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
             font-size: 30px;
         }
     }
+}
 
     /* ------------------------- End of css code from Siddharth Panchal -------------------*/
 
@@ -518,12 +527,109 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
     /* ------------------------- SKILLs -------------------*/
 
+.skills-logo-html {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/html5logo.png");
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
 
+    border: 0.05em solid blue;
+} 
 
-    /*.center {
-    text-align: center
-    
-}*/
+.skills-logo-css {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/css3logo.png");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
 
+    border: 0.05em solid blue;
+} 
 
-    /* ------------------------- Resume -------------------*/
+.skills-logo-python {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/pythonlogo.jpg");
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
+
+    border: 0.05em solid blue;
+} 
+
+.skills-logo-javascript {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/javascriptlogo.png");
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
+
+    border: 0.05em solid blue;
+} 
+
+.skills-logo-django {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/djangologo.png");
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
+
+    border: 0.05em solid blue;
+} 
+
+.skills-logo-bootstrap {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/BootstrapLogo.jpg");
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
+
+    border: 0.05em solid blue;
+} 
+
+.skills-logo-mongodb {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../images/mongoDB.png");
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px; 
+   
+
+    border: 0.05em solid blue;
+} 
+
+/* ------------------------- Resume -------------------*/
