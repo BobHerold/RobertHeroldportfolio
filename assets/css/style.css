@@ -527,26 +527,65 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
     /* ------------------------- SKILLs -------------------*/
 
+.skills-content .col-lg-6 {
+    width: 30%;
+}
+
+ .skills-content h1 {
+    text-align: center;
+    margin-top: 20px;
+ }
+
 .rounded-circle {
     width: 200px;
     height: 200px;
+    display: inline-block;
     border-radius: 50%;
-    /*background-image: url("../images/html5logo.png");*/
-    background-color: green;
+    background-color:#9B96CC;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px;  
-    border: 0.05em solid blue;
-}    
+    background-size: 128px 128px;
+    background-position: 35px 40px;  
+    border: 0.05em solid #475CDA;
+    margin-top: 20px;
+}  
+
+.skills-content a:nth-child(even)
+{
+    margin-left: 25px;
+}
 
 #html {
-    background-image: url("../images/html5logo.png");
+    background-image: url("../images/HTML.png");
 }
 
 #css3 {
-    background-image: url("../images/css3logo.png") 
+    background-image: url("../images/CSS.png");
 }
+
+#python {
+    background-image: url("../images/Python.png");
+    background-size: 256px 256px;
+    background-position: -20px -25px; 
+}
+
+#javascript {
+    background-image: url("../images/Javascript.png");
+}
+
+#django {
+    background-image: url("../images/Django.png");
+}
+
+#bootstrap {
+    background-image: url("../images/Bootstrap.png");
+}
+
+#mongodb {
+    background-image: url("../images/MongoDB.png");
+}
+
+
 
 
 
