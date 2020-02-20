@@ -184,7 +184,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     content:"";
     width:7px;
     height:100%;
-    background:#909090;
+    background:white;
     position:absolute;
     top:0;left:50%;
     transform:translateX(-50%);
@@ -199,7 +199,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     content: "";
     width: 7px;
     height: 100%;
-    background: #909090;
+    background: white;
     position: absolute;
     top: 0px;
     left: 50%;
@@ -236,8 +236,8 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #909090;
-    border: 7px solid #fff;
+    background: white;
+    border: 7px solid #2E3346;
     left: -15px;
 }
 
@@ -256,6 +256,11 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border-radius: 100px;
     background: #FF5B98;
     position: relative;
+}
+
+.main-timeline .timeline-element:nth-child(1) .inner-content .title 
+{
+    color: #FF5B98;
 }
 
 
@@ -277,7 +282,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     width: 70%;
     float: right;
     padding: 15px 20px 15px 15px;
-    background: #fff;
+    background: #2E3346;
     border-radius: 0 100px 100px 0;
     color: #FF5B98;
 }
@@ -287,7 +292,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     display: inline-block;
     font-size: 50px;
     font-weight: 600;
-    color: #fff;
+    color: #2E3346;
     position: absolute;
     top: 50%;
     left: 7%;
@@ -369,13 +374,24 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 }
 
 .main-timeline .timeline-element:nth-child(2n),
-.main-timeline .timeline-element:nth-child(2n) .inner-content {
+.main-timeline .timeline-element:nth-child(2n) .inner-content
+{
+    color: #FFC359;
+}
+
+.main-timeline .timeline-element:nth-child(2) .inner-content .title 
+{
     color: #FFC359;
 }
 
 
 .main-timeline .timeline-element:nth-child(3n) .timeline-content {
     background: #0091C2;
+}
+
+.main-timeline .timeline-element:nth-child(3) .inner-content .title 
+{
+    color: #0091C2;
 }
 
 .main-timeline .timeline-element:nth-child(3n),
@@ -392,6 +408,11 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     background: #CC50C3;
 }
 
+.main-timeline .timeline-element:nth-child(4) .inner-content .title 
+{
+    color: #CC50C3;
+}
+
 .main-timeline .timeline-element:nth-child(4n),
 .main-timeline .timeline-element:nth-child(4n) .inner-content {
     color: #CC50C3;
@@ -403,6 +424,11 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline .timeline-element:nth-child(5n) .timeline-content {
     background: #009D73;
+}
+
+.main-timeline .timeline-element:nth-child(5) .inner-content .title 
+{
+    color: #009D73;
 }
 
 .main-timeline .timeline-element:nth-child(5n),
