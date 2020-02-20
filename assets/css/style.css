@@ -527,7 +527,27 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
     /* ------------------------- SKILLs -------------------*/
 
-.skills-logo-html {
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*background-image: url("../images/html5logo.png");*/
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-position: 40px 40px;  
+    border: 0.05em solid blue;
+}    
+
+#html {
+    background-image: url("../images/html5logo.png");
+}
+
+
+
+
+/*.skills-logo-html {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -540,7 +560,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
    
 
     border: 0.05em solid blue;
-} 
+} */
 
 .skills-logo-css {
     width: 200px;
