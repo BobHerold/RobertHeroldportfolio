@@ -38,10 +38,12 @@ body {
 }
 
 /* Change the link color on hover */
-.nav-item a:hover {
-    background-color: #FF5B98;
-    color: #FFC359;
+.nav-item a:hover,
+.nav-item-active {
+    background-color: #D3D3D3;
+    color: #0076E8;
 }
+
 
 
 .navbar-brand {
@@ -53,8 +55,7 @@ body {
 }
 
 .navbar-brand:hover {
-    background-color: #FF5B98;
-    color: #FFC359;
+    color: #0076E8;
 }
 
 .navbar-toggler {
