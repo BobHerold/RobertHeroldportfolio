@@ -597,7 +597,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     height: 200px;
     display: inline-block;
     border-radius: 50%;
-    background-color:#9B96CC;
+    background-color:#0076E8;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 128px 128px;
@@ -751,4 +751,19 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border: 0.05em solid blue;
 } 
 
-/* ------------------------- Resume -------------------*/
+/* ------------------------- Contact Page -------------------*/
+
+.contact-page-content {
+    margin-top: .5em;
+    color: white;
+    background-color: #0087DF;
+    border-radius: 1.5em;
+    padding-top: 0.0em;
+    border: 0.5em solid #0076E8;
+    height: 100%;
+
+}
+
+.contact-page-content2 {
+    padding: 1em; 
+}
