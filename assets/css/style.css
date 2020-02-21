@@ -13,7 +13,7 @@
 
 /* ------------------------- Every Page -------------------*/
 body {
-    background-color: #FF8A6E;
+    background-color: #D3D3D3;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
@@ -24,16 +24,16 @@ body {
 /*-------------------------------------------Navbar*/
 
 .navbar {
-    background-color: #475CDA;
+    background-color: #2E3346;
 }
 
 .navbar-nav {
-    background-color: #475CDA;
+    background-color: #2E3346;
 }
 
 .nav-item a {
     display: block;
-    color: #F9F871;
+    color: white;
     /* padding: 8px 5px; */
 }
 
@@ -45,10 +45,11 @@ body {
 
 
 .navbar-brand {
-    color: #F9F871;
+    color: white;
     font: bolder;
     font-weight: 700;
     text-decoration: none;
+    font-size: 1.75em;
 }
 
 .navbar-brand:hover {
@@ -93,65 +94,83 @@ body {
 
 /* ------------------------- Home Page Content-------------------*/
 
+.home-page-content {
+    margin-top: .5em;
+    color: white;
+    background-color: #0087DF;
+    border-radius: 1.5em;
+    padding-top: 0.0em;
+    border: 0.5em solid #0076E8;
+    height: 100%;
 
-/* Small devices (landscape phones, 576px and up) */
-.home-page-content h1, h5
-@media (min-width: 600px) {  
-    margin-top: -10em;
 }
 
 .home-page-content {
-    margin-top: .5em;
-    color: #F9F871;
-    background-color: #475CDA;
-    border-radius: 1.5em;
-    padding-top: 0.25em;
-    border: 0.5em solid #475CDA;
-    height: 120%;
-
-}
-
-.home-page-content h1 {
-    margin-top: -5em;
-    margin-left: 50%;
-    font-size: 3em ;
-    color: #F9F871;
-}
-
-.home-page-content h5 {
-    margin-left: 50%;
-    margin-top: 1.25em;
-    margin-bottom: 2.125em;
-    color: #F9F871;
-    font-size: 2em;
-    font-weight: 500;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
+    position:relative;
 }
 
 .home-page-content p {
     position: relative;
-    top: 5.125em;
     padding-left: .75em;
+    font-size: 1.25em;
 }
 
+/* Parent */ 
+.home-page-content .home-page-flex1{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-flow: row wrap;
+}
+
+.home-page-content .home-page-flex2 {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+/* Child 1 */ 
+.home-page-content .home-page-titles {
+    flex: 1;
+    flex-basis: 250px;
+}
+
+/* Child 1-1 */ 
+.home-page-content h1 {
+    margin-top: 1.1em;
+    font-size: 4em ;
+    color: white;
+}
+
+/* Child 1-2 */ 
+.home-page-content h5 {
+    /* margin: 0 auto; */
+    margin-top: 0.5em;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/* Child 2 */ 
+.home-page-content .home-page-picture {
+    text-align: center;
+    width: 50%;
+}
+
+/* Child 2-1 */ 
 .profile-picture {
+    margin: 0 auto;
+    margin-right: 95px;
     width: 15.625em;
     height: 15.625em;
     border-radius: 50%;
+
+
     background-image: url("../images/BobHerold.jpg");
     background-position: 0em -2em; 
     background-size: cover;
 
-
-    margin-top: 3em;
-    /* margin-bottom: -6em; */
-    margin-left: 12.5%;
-
-    border: 0.05em solid #FF8A6E;
+    border: 0.2em solid #0076E8;
 }
 
 /*-------------------------------------------Paragraph text*/
