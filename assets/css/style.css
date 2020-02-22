@@ -74,24 +74,34 @@ body {
 
 /*-------------------------------------------Footer*/
 
-.footer {
-    flex-shrink: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3em;
-    text-align: center;
-}
-
 .footer-row {
-    margin-top: 4em;
-    position: bottom;
-    text-align: center
-}
-
-.footer .list-inline .social-links li a i {
+    position: relative;
     text-align: center;
+    margin-top: 14.8em;
+    position: bottom;
+    background-color: #2E3346;
 }
 
+.social-links li a i {
+    padding: 5px;
+    text-align: center;
+}   
+
+.list-inline-item i {
+    font-size: 1.4em;
+    color: white;
+}
+
+.list-inline-item i:hover {
+    color: #0076E8;
+}
+
+footer p {
+    margin: 0 auto;
+    margin-top: -15px;
+    color: white; 
+    font-size: .8em;
+}
 
 /* ------------------------- Home Page Content-------------------*/
 
@@ -645,23 +655,6 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 
 
-
-
-/*.skills-logo-html {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/html5logo.png");
-    background-color: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} */
-
 .skills-logo-css {
     width: 200px;
     height: 200px;
@@ -767,4 +760,8 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .contact-page-content2 {
     padding: 1em; 
+}
+
+.contact-page-filler{
+    margin-top: 9.5em;
 }
