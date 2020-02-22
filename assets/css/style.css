@@ -29,15 +29,14 @@ body {
 
 .navbar-nav {
     background-color: #2E3346;
+  
 }
 
 .nav-item a {
     display: block;
     color: white;
-    /* padding: 8px 5px; */
 }
 
-/* Change the link color on hover */
 .nav-item a:hover,
 .nav-item-active {
     background-color: #D3D3D3;
