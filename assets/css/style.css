@@ -43,8 +43,6 @@ body {
     color: #0076E8;
 }
 
-
-
 .navbar-brand {
     color: white;
     font: bolder;
@@ -762,5 +760,5 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 }
 
 .contact-page-filler{
-    margin-top: 9.5em;
+    margin-top: 10.5em;
 }
