@@ -34,13 +34,9 @@ with the goal of presenting information to potential employers/recruiters will b
 
   ###  Features Left to Implement
 
-  * __Projects__ - a page to showcase completed coding projects created by myself.
+  * __Projects__ - a page to showcase completed coding projects created by myself.  
 
-
-
-
-
-
+  
  ## Technologies Used
 
  1. HTML, CSS, Bootstrap4
