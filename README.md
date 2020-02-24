@@ -39,18 +39,29 @@ with the goal of presenting information to potential employers/recruiters will b
   
  ## Technologies Used
 
- 1. HTML: Hyper Text Markup Language- used to construct all the pages of this web site.  For further info on this language;   
+ 1. **HTML, or Hyper Text Markup Language:**  used to construct all the pages of this web site.  For further info on this language;   
  https://developer.mozilla.org/en-US/docs/Web/HTML
 
- 2. CSS, or Cascading Style Sheets:  is used to style various elements on a web page via coloring, fonts, spacing, etc.  For further info, see this link;
+ 2. **CSS, or Cascading Style Sheets:**  is used to style various elements on a web page via coloring, fonts, spacing, etc.  For further info, see this link;
  https://www.w3.org/Style/CSS/Overview.en.html
- 
 
- 3. Sourcetree, Visual Studio Code
+ 3. **Bootstrap:**  a CSS framework that assists the programmer in creating responsive, mobile first front-end web sites.  https://getbootstrap.com/
 
- 4. Github
+ 4. **Visual Studio Code:**  is a programming code editor created by Microsoft that I used extensively.  It allows programmers to create, save and edit their code on their own pc's.
+ https://code.visualstudio.com/
 
- 5. Gitpod
+ 5. **SourceTree:**  a software application that runs on your computer that simplifies saving your programming code from your PC up to an oline respository like Github.  You do not have to use a command line interface when using this application to save your work.  For further info; 
+  https://www.sourcetreeapp.com/
+
+ 6. **Gitpod:**  an online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC.
+ https://www.gitpod.io/
+
+ 7. **Git:**  a version control system for tracking changes in source code during software development.  https://git-scm.com/
+
+ 8. **GitHub:** a company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.com
+
+
+
 
 
 
@@ -85,7 +96,7 @@ with the goal of presenting information to potential employers/recruiters will b
 
 
 
-## Acknowledgements
+### Acknowledgements
 
 1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.
 
