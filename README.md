@@ -39,11 +39,14 @@ with the goal of presenting information to potential employers/recruiters will b
   
  ## Technologies Used
 
- 1. HTML, CSS, Bootstrap4
+ 1. HTML: Hyper Text Markup Language- used to construct all the pages of this web site.  For further info on this language;   
+ https://developer.mozilla.org/en-US/docs/Web/HTML
 
- 2. Visual Studio Code
+ 2. CSS, or Cascading Style Sheets:  is used to style various elements on a web page via coloring, fonts, spacing, etc.  For further info, see this link;
+ https://www.w3.org/Style/CSS/Overview.en.html
+ 
 
- 3. Sourcetree
+ 3. Sourcetree, Visual Studio Code
 
  4. Github
 
