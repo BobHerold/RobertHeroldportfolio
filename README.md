@@ -60,13 +60,26 @@ with the goal of presenting information to potential employers/recruiters who wi
 
  7. **Git:**  a version control system for tracking changes in source code during software development.  https://git-scm.com/
 
- 8. **GitHub:** a company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.com
+ 8. **GitHub:** a company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.
+ 
+ 9. **Chrome DevTools:**   A set of web developer tools built directly into the Google Chrome browser.  I used these tools constantly thoughout the development cycle.    https://developers.google.com/web/tools/chrome-devtools
 
 
 
  ## Testing
 
- 1.http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple device viewports, also used to create the AppleDevicesView.png at top of this Readme. 
+ 1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple devices and their viewports, all pages, links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
+
+ 2.  I have viewed this site in 3 different browsers from my desktop; Chrome, Internet Edge and  Mozilla Firefox.  All pages, links on those pages, and footer icon links perform well on all viewport sizes, using Chrome Developer Tool's, Device Toolbar for testing.  I've also used my own iPhone6 w/Safari and Chrome browsers for testing the site, as well as relatives testing the site on their Android smartphones.  All features and links work as expected.
+
+ 3.  BUGS:  The most obvious bugs I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
+  Due to time constraints on getting this project submitted I'm unable to address them right now.
+
+ ![](assets\images\Bugs.png)
+
+ ![](assets\images\Bugs2.PNG)
+
+         
 
 
 
@@ -100,10 +113,12 @@ with the goal of presenting information to potential employers/recruiters who wi
 
 ### Acknowledgements
 
-1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.
+1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.  Richard Wells-lead on Slack's User-Centric Channel for his informative Slack calls on creating Milestone 1 projects.
 
-2. Mentor Sandeep Aggarwal for architecture inspiration and advice.
+2. Mentor Sandeep Aggarwal for site architecture inspiration and advice.
+https://www.linkedin.com/in/asandeepme/
 
 3. My son Dakota Herold for his programming recommendations and advice.
+https://www.linkedin.com/in/dakotaherold/
 
 
