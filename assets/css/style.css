@@ -642,101 +642,10 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 }
 
 
-
-
-.skills-logo-css {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/css3logo.png");
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} 
-
-.skills-logo-python {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/pythonlogo.jpg");
-    background-color: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} 
-
-.skills-logo-javascript {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/javascriptlogo.png");
-    background-color: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} 
-
-.skills-logo-django {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/djangologo.png");
-    background-color: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} 
-
-.skills-logo-bootstrap {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/BootstrapLogo.jpg");
-    background-color: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} 
-
-.skills-logo-mongodb {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url("../images/mongoDB.png");
-    background-color: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 125px 125px;
-    background-position: 40px 40px; 
-   
-
-    border: 0.05em solid blue;
-} 
 /* -------------------------End of  SKILLs -------------------*/
 
 
-/* ------------------------- Contact Page css is from W3 schools-------------------*/
+/* ------------------------- Contact Page css is from W3 schools;  I have added to it and modified it.-------------------*/
 
 .contact-page-content {
     margin-top: .5em;
@@ -760,3 +669,5 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 #msg.form-control {
     height: 6.25em;
 }
+
+/* -------------------------End of Contact -------------------*/
