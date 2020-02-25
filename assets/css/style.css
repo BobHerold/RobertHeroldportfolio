@@ -181,14 +181,6 @@ footer p {
     border: 0.2em solid #0076E8;
 }
 
-/*-------------------------------------------Paragraph text*/
-
-/*.col-6-heading p {
-    color:#6b0909;
-    font-weight: bold;
-} */
-
-
 
 /* ------------------------- Experience Timeline -------------------*/
 
@@ -198,7 +190,7 @@ footer p {
 Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE  ;
  
   I have modified the background, arrow, and inner content colors of the timeline elements to match mycolor.space Generic & Matching Gradient
-   color palette for my base color of #475CDA========= */
+   color palette for my base color of #475CDA, along with changing px to em, some margins, paddings, etc.========= */
 
 .container {
     margin-top: 3em;
