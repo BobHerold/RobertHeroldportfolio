@@ -45,13 +45,14 @@
 	</header>
 
 
-	<!--Below code came from W3schools.com;  I have modified it-->
+	<!--Below code came from W3schools:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail;  I have modified it-->
+
 	<div class="content">
 		<div class="container">
 			<div class="contact-page-content">
 				<div class="contact-page-content2">
 					<h2>Contact Me</h2>
-					<form action="mailto:bobherold@yahoo.com">
+					<form action="mailto:bobherold@yahoo.com" target="_blank" method="get">
 						<div class="form-group">
 							<label for="email">Email:</label>
 							<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
@@ -64,7 +65,6 @@
 							<label for="msg">Message:</label>
 							<input type="text" class="form-control" id="msg" placeholder="Enter message" name="body" required>
 						</div>
-
 						<button type="submit" value="Send">Submit</button>
 					</form>
 				</div>
@@ -73,8 +73,8 @@
 	</div>
 
 	<!-- Footer -->
-	<div class="contact-page-filler"></div>
 
+	<div class="contact-page-filler"></div>
 	<footer>
 		<div class="footer-row">
 			<ul class="list-inline social-links">
@@ -93,6 +93,7 @@
 		</div>
 
 	</footer>
+	
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
@@ -102,8 +103,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-
-
 </body>
 
 </html>
