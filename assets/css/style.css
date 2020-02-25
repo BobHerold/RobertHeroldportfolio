@@ -733,8 +733,10 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
     border: 0.05em solid blue;
 } 
+/* -------------------------End of  SKILLs -------------------*/
 
-/* ------------------------- Contact Page -------------------*/
+
+/* ------------------------- Contact Page css is from W3 schools-------------------*/
 
 .contact-page-content {
     margin-top: .5em;
@@ -753,4 +755,8 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .contact-page-filler{
     margin-top: 10.5em;
+}
+
+#msg.form-control {
+    height: 6.25em;
 }
