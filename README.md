@@ -1,9 +1,11 @@
 # Robert Herold Portfolio
 
+![](assets\images\AppleDevicesView.png)
+
 This site will be an ongoing dynamic page, designed to furnish information on my coding skills and career journey.
 
-Initial creation is for my first milestone project as a Full Stack software developer student of the Code Institute, 
-with the goal of presenting information to potential employers/recruiters will be able to assess my qualifications quickly and efficiently.
+Initial creation is for my first milestone project as a Full Stack software developer student of the Code Institute (https://codeinstitute.net/), 
+with the goal of presenting information to potential employers/recruiters who will be able to assess my qualifications quickly and efficiently.
 
 ## UX
 
@@ -62,12 +64,9 @@ with the goal of presenting information to potential employers/recruiters will b
 
 
 
-
-
-
  ## Testing
 
- 1.http://ami.responsivedesign.is/
+ 1.http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple device viewports, also used to create the AppleDevicesView.png at top of this Readme. 
 
 
 
@@ -82,6 +81,8 @@ with the goal of presenting information to potential employers/recruiters will b
    1. HTML & CSS Timeline code directly from;  Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE "Timeline Using CSS"  Timeline Demo #11.
       Used on my Experience page.
 
+   2.  W3schools.com; for code used on e-mail form on Contact page.   
+
 
 ### Media
 
@@ -94,6 +95,7 @@ with the goal of presenting information to potential employers/recruiters will b
    4. Am I Responsive web site for checking responsiveness on all screen sizes;
    http://ami.responsivedesign.is/
 
+   5. W3schools.com; for code used on e-mail form; constantly referred to this web site for examples, explanations, their Pixel to Em Converter, etc.
 
 
 ### Acknowledgements
