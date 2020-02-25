@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
 
-/* body.page-id-1 {
-    height:150vh;
-    background-repeat: no-repeat;
-    background-size: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    
-    font-family:'Lato', sans-serif;
-} */
+
 
 /* ------------------------- Every Page -------------------*/
 body {
@@ -21,7 +12,7 @@ body {
 
 
 
-/*-------------------------------------------Navbar*/
+/*-------------------Navbar----------------------*/
 
 .navbar {
     background-color: #2E3346;
@@ -56,20 +47,22 @@ body {
 }
 
 .navbar-toggler {
-    width: 40px;
-    height: 34px;
+    width: 2.5em;
+    height: 2.125em;
     background-color: #D3D3D3;
 }
 
 .navbar-toggler-icon {
     width: 100%;
     float: right;
-    height: 1px;
+    height: 0.0625em;
     background-color: black;
-    margin-bottom: 1px;
+    margin-bottom: 0.0625em;
 }
 
-/*-------------------------------------------Footer*/
+/*-------------------End Navbar----------------------*/
+
+/*---------------------Footer------------------------*/
 
 .footer-row {
     position: relative;
@@ -80,7 +73,7 @@ body {
 }
 
 .social-links li a i {
-    padding: 5px;
+    padding: 0.3125em;
     text-align: center;
 }   
 
@@ -95,12 +88,15 @@ body {
 
 footer p {
     margin: 0 auto;
-    margin-top: -15px;
+    margin-top: -0.9375em;
     color: white; 
     font-size: .8em;
 }
 
-/* ------------------------- Home Page Content-------------------*/
+/*---------------------End Footer------------------------*/
+
+
+/* ------------------ Home Page Content---------------*/
 
 .home-page-content {
     margin-top: .5em;
@@ -140,7 +136,7 @@ footer p {
 /* Child 1 */ 
 .home-page-content .home-page-titles {
     flex: 1;
-    flex-basis: 250px;
+    flex-basis: 15.625em;
 }
 
 /* Child 1-1 */ 
@@ -168,7 +164,7 @@ footer p {
 /* Child 2-1 */ 
 .profile-picture {
     margin: 0 auto;
-    margin-right: 95px;
+    margin-right: 5.9375em;
     width: 15.625em;
     height: 15.625em;
     border-radius: 50%;
@@ -180,6 +176,8 @@ footer p {
 
     border: 0.2em solid #0076E8;
 }
+
+/* ------------------End Home Page Content---------------*/
 
 
 /* ------------------------- Experience Timeline -------------------*/
@@ -203,7 +201,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .timeline-content h3 {
     text-align: center;
-    margin: 30px 0;
+    margin: 1.875em 0;
     color: #444
 }
 
@@ -212,7 +210,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     overflow:hidden;
     position:relative;
     content:"";
-    width:7px;
+    width:0.4375em;
     height:100%;
     background:white;
     position:absolute;
@@ -227,27 +225,24 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 .main-timeline:before {
     content: "";
-    width: 7px;
+    width: 0.4375em;
     height: 100%;
     background: white;
     position: absolute;
-    top: 0px;
+    top: 0em;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/*TODO: Adjust media queries for smaller resolutions*/
+
 .main-timeline .timeline-element:nth-child(odd) .title {
     padding-right: 1.25em;
 }
 
-/* .main-timeline .timeline-element:nth-child(even) .title {
-    padding-left: -0.75em;
-} */
 
 .main-timeline .timeline-element {
     width: 50%;
-    padding-left: 50px;
+    padding-left: 3.125em;
     float: right;
     position: relative;
 }
@@ -263,12 +258,12 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 
 
 .main-timeline .timeline-element:before {
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
     border-radius: 50%;
     background: white;
-    border: 7px solid #2E3346;
-    left: -15px;
+    border: 0.4375em solid #2E3346;
+    left: -0.9375em;
 }
 
 
@@ -577,7 +572,7 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     }
 }
 
-    /* ------------------------- End of css code from Siddharth Panchal -------------------*/
+    /* ------------------------- End of Experience css code from Siddharth Panchal -------------------*/
 
 
 
