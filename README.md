@@ -72,7 +72,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
  2.  I have viewed this site in 3 different browsers from my desktop; Chrome, Internet Edge and  Mozilla Firefox.  All pages, links on those pages, and footer icon links perform well on all viewport sizes, using Chrome Developer Tool's, Device Toolbar for testing.  I've also used my own iPhone6 w/Safari and Chrome browsers for testing the site, as well as relatives testing the site on their Android smartphones.  All features and links work as expected.
 
- 3.  Open Issues:  The most obvious bugs I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
+ 3.  Open Issues:  The most obvious issues I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
   Due to time constraints on getting this project submitted I'm unable to address them right now.
 
  ![](assets/images/Bugs.png)
