@@ -2,6 +2,8 @@
 
 ![](assets\images\AppleDevicesView.png)
 
+![Apple Devices picture](https://github.com/BobHerold/RobertHeroldportfolio/assets/images/AppleDevicesView.png)
+
 This site will be an ongoing dynamic page, designed to furnish information on my coding skills and career journey.
 
 Initial creation is for my first milestone project as a Full Stack software developer student of the Code Institute (https://codeinstitute.net/), 
