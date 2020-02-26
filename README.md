@@ -1,6 +1,6 @@
 # Robert Herold Portfolio
 
-![](assets\images\AppleDevicesView.png)
+![Apple Devices picture](assets/images/AppleDevicesView.png)
 
 ![Apple Devices picture](https://github.com/BobHerold/RobertHeroldportfolio/assets/images/AppleDevicesView.png)
 
