@@ -13,54 +13,54 @@ with the goal of presenting information to potential employers/recruiters who wi
 
  #### User Stories
 
- "As a recruiter, I want to quickly and easily find all relevant information on the potential client".
+   * As a recruiter, I want to quickly and easily find all relevant information on the potential client.
 
- "As an employer, my need to find past working experience is important to me."
+   * As an employer, my need to find past working experience is important to me.
 
- "On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have those skills sets."
+   * On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have those skills sets.
 
  ## Features
 
 ### Existing Features
 
-  * __Home page__ - a picture and brief introduction to myself.
+  * __Home page__ - A picture and brief introduction to myself.
 
-  * __Skills__ -allows the user to see my current coding skill set. When a user clicks on any one of the logos on this page, it is hypelinked to a wikipedia info page about that skill.
+  * __Skills__ -Allows the user to see my current coding skill set. When a user clicks on any one of the logos on this page, it is hypelinked to a wikipedia info page about that skill.
 
-  * __Experience__  -my career journey presented in a timeline fashion. Clicking on any of the corporate entities listed here, will immediately open up a seperate page linked to their corporate web site.
+  * __Experience__  -My career journey presented in a timeline fashion. Clicking on any of the corporate entities listed here, will immediately open up a seperate page linked to their corporate web site.
 
-  * __Resume__  -the latest edition of my resume.  This resume needs to be updated at the time of this writing to reflect my current/ongoing coding skill set and education.
+  * __Resume__  -The latest edition of my resume.  This resume needs to be updated at the time of this writing to reflect my current/ongoing coding skill set and education.
 
-  * __Contact__  -an e-mail form to send a request for contact to me.  This form responds to input and sends an e-mail directly to my e-mail inbox at Yahoo.
+  * __Contact__  -An e-mail form to send a request for contact to me.  This form responds to input and sends an e-mail directly to my e-mail inbox at Yahoo.
 
 
   ###  Features Left to Implement
 
-  * __Projects__ - a page to showcase completed coding projects created by myself.  
+  * __Projects__ - A page to showcase completed coding projects created by myself.  
 
   
  ## Technologies Used
 
- 1. **HTML, or Hyper Text Markup Language:**  used to construct all the pages of this web site.  For further info on this language;   
+ 1. **HTML, or Hyper Text Markup Language:**  Used to construct all the pages of this web site.  For further info on this language;   
  https://developer.mozilla.org/en-US/docs/Web/HTML
 
- 2. **CSS, or Cascading Style Sheets:**  is used to style various elements on a web page via coloring, fonts, spacing, etc.  For further info, see this link;
+ 2. **CSS, or Cascading Style Sheets:**  Is used to style various elements on a web page via coloring, fonts, spacing, etc.  For further info, see this link;
  https://www.w3.org/Style/CSS/Overview.en.html
 
- 3. **Bootstrap:**  a CSS framework that assists the programmer in creating responsive, mobile first front-end web sites.  https://getbootstrap.com/
+ 3. **Bootstrap:**  A CSS framework that assists the programmer in creating responsive, mobile first front-end web sites.  https://getbootstrap.com/
 
- 4. **Visual Studio Code:**  is a programming code editor created by Microsoft that I used extensively.  It allows programmers to create, save and edit their code on their own pc's.
+ 4. **Visual Studio Code:**  Is a programming code editor created by Microsoft that I used extensively.  It allows programmers to create, save and edit their code on their own pc's.
  https://code.visualstudio.com/
 
- 5. **SourceTree:**  a software application that runs on your computer that simplifies saving your programming code from your PC up to an oline respository like Github.  You do not have to use a command line interface when using this application to save your work.  For further info; 
+ 5. **SourceTree:**  A software application that runs on your computer that simplifies saving your programming code from your PC up to an oline respository like Github.  You do not have to use a command line interface when using this application.  For further info; 
   https://www.sourcetreeapp.com/
 
- 6. **Gitpod:**  an online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC.
+ 6. **Gitpod:**  An online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC.
  https://www.gitpod.io/
 
- 7. **Git:**  a version control system for tracking changes in source code during software development.  https://git-scm.com/
+ 7. **Git:**  A version control system for tracking changes in source code during software development.  https://git-scm.com/
 
- 8. **GitHub:** a company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.
+ 8. **GitHub:** A company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.
  
  9. **Chrome DevTools:**   A set of web developer tools built directly into the Google Chrome browser.  I used these tools constantly thoughout the development cycle.    https://developers.google.com/web/tools/chrome-devtools
 
@@ -70,16 +70,33 @@ with the goal of presenting information to potential employers/recruiters who wi
 
  1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple devices and their viewports, all pages, links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
 
- 2.  I have viewed this site in 3 different browsers from my desktop; Chrome, Internet Edge and  Mozilla Firefox.  All pages, links on those pages, and footer icon links perform well on all viewport sizes, using Chrome Developer Tool's, Device Toolbar for testing.  I've also used my own iPhone6 w/Safari and Chrome browsers for testing the site, as well as relatives testing the site on their Android smartphones.  All features and links work as expected.
+ 2.  **Desktop**
+     
+       * Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
 
- 3.  Open Issues:  The most obvious issues I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
+ 3.  **Mobile**
+
+      *  Used my iPhone6 plus, as well as relative's iPhone X, Android smartphones to test;  all pages, links, icons performed well on all devices using various browsers; Safari & Chrome.      
+
+4.   **Contact Form**
+
+     1.  Go to Contact page
+
+     2.  Try to submit the form without a correct syntax e-mail address and you will get an error message requesting a proper e-mail address be entered.
+
+     3. Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
+
+     4.  When you do hit the Submit button, the default e-mail program for your PC will open right up, or on smartphones it asks you which e-mail program you want to use to send the e-mail.  It will populate your e-mail for you, and will automatedly send me the e-mai, as my address populates also.  I have received many e-mails successfully testing this process.
+
+ 4.  **Open Issues:**  The most obvious issues I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
   Due to time constraints on getting this project submitted I'm unable to address them right now.
 
- ![](assets/images/Bugs.png)
+ ![Apple smartphone image](assets/images/Bugs.png)
 
- ![](assets/images/Bugs2.PNG)
+ ![765 viewport image](assets/images/Bugs2.PNG)
 
          
+
 
 
 
