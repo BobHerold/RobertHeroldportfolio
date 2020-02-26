@@ -17,7 +17,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
    * As an employer, my need to find past working experience is important to me.
 
-   * On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have those skills sets.
+   * On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have those skill sets.
 
  ## Features
 
@@ -72,7 +72,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
  2.  **Desktop**
      
-       * Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
+       * Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
 
  3.  **Mobile**
 
@@ -86,7 +86,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
      3. Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
 
-     4.  When you do hit the Submit button, the default e-mail program for your PC will open right up, or on smartphones it asks you which e-mail program you want to use to send the e-mail.  It will populate your e-mail for you, and will automatedly send me the e-mai, as my address populates also.  I have received many e-mails successfully testing this process.
+     4.  When you do hit the Submit button, the default e-mail program for your PC will open right up, or on smartphones it asks you which e-mail program you want to use to send the e-mail.  It will populate your e-mail for you, and will automatedly send me the e-mail, as my address populates also.  I have received many e-mails successfully testing this process.
 
  4.  **Open Issues:**  The most obvious issues I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
   Due to time constraints on getting this project submitted I'm unable to address them right now.
@@ -96,13 +96,25 @@ with the goal of presenting information to potential employers/recruiters who wi
  ![765 viewport image](assets/images/Bugs2.PNG)
 
          
-
-
-
-
 ## Deployment
 
+  1. Created a Github account at https://github.com
+  My account url;    https://github.com/BobHerold
 
+  2. I uploaded all files to my Github repository located at this url;  https://github.com/BobHerold/RobertHeroldportfolio   which is for this individual project.
+
+  3. To publish the project to see it on the web, I then went into the Settings on my respository, scrolled down to the heading, GitHub Pages. Under the Source setting, I used the drop-down menu to select master branch as a publishing source and saved it.  Refreshed the github page, and you are then given a url where your page is published;
+   Your site is published at https://bobherold.github.io/RobertHeroldportfolio/
+
+  4.  To run this code on your local machine, you would go to my respository at 
+https://github.com/BobHerold/RobertHeroldportfolio   and on the home page on the right hand side just above all the files, you will see a green button that says,
+"Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
+To continue with cloning, you would;
+  * Open Git Bash
+  * Change the current working directory to the location where you want the cloned directory to be made.
+  * Type git clone, and then paste this URL; https://github.com/BobHerold/RobertHeroldportfolio.git      Press Enter. Your local clone will be created.
+
+  For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ## Credits
 
