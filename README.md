@@ -125,6 +125,7 @@ To continue with cloning, you would;
 
    2.  W3schools.com; for code used on e-mail form on Contact page.     https://www.w3schools.com/
 
+   3.  Google Fonts for font styles;  https://fonts.google.com/
 
 ### Media
 
@@ -134,10 +135,12 @@ To continue with cloning, you would;
 
    3. Used https://tinyjpg.com/   to compress .jpg images down to smaller size for better more efficient loading of web site.
 
-   4. Am I Responsive web site for checking responsiveness on all screen sizes;
+   4. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
    http://ami.responsivedesign.is/
 
    5. W3schools.com; for code used on e-mail form; constantly referred to this web site for examples, explanations, their Pixel to Em Converter, etc. https://www.w3schools.com/
+
+   6. Font Awesome for hamburg icon; https://fontawesome.com/
 
 
 ### Acknowledgements

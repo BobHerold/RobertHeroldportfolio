@@ -17,18 +17,15 @@ body {
 .navbar,.navbar-nav  {
     background-color: #2E3346;
 }
-
 .nav-item a {
     display: block;
     color: white;
 }
-
 .nav-item a:hover,
 .nav-item-active {
     background-color: #D3D3D3;
     color: #0076E8;
 }
-
 .navbar-brand {
     color: white;
     font: bolder;
@@ -36,17 +33,14 @@ body {
     text-decoration: none;
     font-size: 1.75em;
 }
-
 .navbar-brand:hover {
     color: #0076E8;
 }
-
 .navbar-toggler {
     width: 2.5em;
     height: 2.125em;
     background-color: #D3D3D3;
 }
-
 .navbar-toggler-icon {
     width: 100%;
     float: right;
@@ -66,21 +60,17 @@ body {
     position: bottom;
     background-color: #2E3346;
 }
-
 .social-links li a i {
     padding: 0.3125em;
     text-align: center;
 }
-
 .list-inline-item i {
     font-size: 1.4em;
     color: white;
 }
-
 .list-inline-item i:hover {
     color: #0076E8;
 }
-
 footer p {
     margin: 0 auto;
     margin-top: -0.9375em;
@@ -102,17 +92,14 @@ footer p {
     border: 0.5em solid #0076E8;
     height: 100%;
 }
-
 .home-page-content {
     position: relative;
 }
-
 .home-page-content p {
     position: relative;
     padding-left: .75em;
     font-size: 1.25em;
 }
-
 /* Parent */
 .home-page-content .home-page-flex1 {
     margin-top: 1em;
@@ -121,25 +108,21 @@ footer p {
     flex-wrap: wrap;
     flex-flow: row wrap;
 }
-
 .home-page-content .home-page-flex2 {
     display: flex;
     flex-wrap: wrap;
 }
-
 /* Child 1 */
 .home-page-content .home-page-titles {
     flex: 1;
     flex-basis: 15.625em;
 }
-
 /* Child 1-1 */
 .home-page-content h1 {
     margin-top: 1.1em;
     font-size: 4em;
     color: white;
 }
-
 /* Child 1-2 */
 .home-page-content h5 {
     /* margin: 0 auto; */
@@ -148,13 +131,11 @@ footer p {
     font-size: 1.5em;
     font-weight: 500;
 }
-
 /* Child 2 */
 .home-page-content .home-page-picture {
     text-align: center;
     width: 50%;
 }
-
 /* Child 2-1 */
 .profile-picture {
     margin: 0 auto;
@@ -162,12 +143,9 @@ footer p {
     width: 15.625em;
     height: 15.625em;
     border-radius: 50%;
-
-
     background-image: url("../images/BobHerold.jpg");
     background-position: 0em -2em;
     background-size: cover;
-
     border: 0.2em solid #0076E8;
 }
 
@@ -187,17 +165,14 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 .container {
     margin-top: 3em;
 }
-
 .timeline-content a {
     text-decoration: none
 }
-
 .timeline-content h3 {
     text-align: center;
     margin: 1.875em 0;
     color: #444
 }
-
 .timeline-padding {
     overflow: hidden;
     position: relative;
@@ -210,12 +185,10 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     left: 50%;
     transform: translateX(-50%);
 }
-
 .main-timeline {
     overflow: hidden;
     position: relative;
 }
-
 .main-timeline:before {
     content: "";
     width: 0.4375em;
@@ -226,18 +199,15 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     left: 50%;
     transform: translateX(-50%);
 }
-
 .main-timeline .timeline-element:nth-child(odd) .title {
     padding-right: 1.25em;
 }
-
 .main-timeline .timeline-element {
     width: 50%;
     padding-left: 3.125em;
     float: right;
     position: relative;
 }
-
 .main-timeline .timeline-element:after,
 .main-timeline .timeline-element:before {
     position: absolute;
@@ -245,7 +215,6 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     top: 50%;
     transform: translateY(-50%);
 }
-
 .main-timeline .timeline-element:before {
     width: 1.875em;
     height: 1.875em;
@@ -254,7 +223,6 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border: 0.4375em solid #2E3346;
     left: -0.9375em;
 }
-
 .main-timeline .timeline-element:after {
     display: block;
     border-right: 30px solid #FF5B98;
@@ -262,7 +230,6 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border-bottom: 20px solid transparent;
     left: 24px;
 }
-
 .main-timeline .timeline-content {
     display: block;
     padding: 25px;
@@ -270,11 +237,9 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     background: #FF5B98;
     position: relative;
 }
-
 .main-timeline .timeline-element:nth-child(1) .inner-content .title {
     color: #FF5B98;
 }
-
 .main-timeline .timeline-content:after,
 .main-timeline .timeline-content:before {
     content: "";
@@ -282,11 +247,9 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     width: 100%;
     clear: both;
 }
-
 .main-timeline .timeline-content:hover {
     text-decoration: none;
 }
-
 .main-timeline .inner-content {
     width: 70%;
     float: right;
@@ -295,7 +258,6 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border-radius: 0 100px 100px 0;
     color: #FF5B98;
 }
-
 .main-timeline .year {
     display: inline-block;
     font-size: 50px;
@@ -306,33 +268,27 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     left: 7%;
     transform: translateY(-50%);
 }
-
 .main-timeline .title {
     font-size: 0.938em;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 0 5px;
 }
-
 .main-timeline .description {
     font-size: 14px;
     margin: 0 0 5px;
 }
-
 .main-timeline .timeline-element:nth-child(2n) {
     padding: 0 50px 0 0;
 }
-
 .main-timeline .timeline-element:nth-child(2n) .year,
 .main-timeline .timeline-element:nth-child(2n):before {
     left: auto;
     right: -15px;
 }
-
 .main-timeline .timeline-element:nth-child(2n) .year {
     right: 7%;
 }
-
 .main-timeline .timeline-element:nth-child(2n):after {
     border-right: none;
     border-left: 30px solid #ee4423;
@@ -340,40 +296,31 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     right: 24px;
     border-left-color: #FFC359;
 }
-
 .main-timeline .timeline-element:nth-child(2n) .inner-content {
     float: none;
     border-radius: 100px 0 0 100px;
     text-align: right;
 }
-
 .main-timeline .timeline-element:nth-child(2) {
     margin-top: 130px;
 }
-
 .main-timeline .timeline-element:nth-child(odd) {
     margin: -130px 0 0;
 }
-
 .main-timeline .timeline-element:nth-child(even) {
     margin-bottom: 80px;
 }
-
 .main-timeline .timeline-element:first-child,
 .main-timeline .timeline-element:last-child:nth-child(even) {
     margin: 0;
 }
-
 .main-timeline .timeline-element:nth-child(2n) .timeline-content {
     background: #FFC359;
-
 }
-
 .main-timeline .timeline-element:nth-child(2n),
 .main-timeline .timeline-element:nth-child(2n) .inner-content {
     color: #FFC359;
 }
-
 .main-timeline .timeline-element:nth-child(2) .inner-content .title {
     color: #FFC359;
 }
@@ -385,20 +332,16 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 .main-timeline .timeline-element:nth-child(3) .inner-content .title {
     color: #0091C2;
 }
-
 .main-timeline .timeline-element:nth-child(3n),
 .main-timeline .timeline-element:nth-child(3n) .inner-content {
     color: #0091C2;
 }
-
 .main-timeline .timeline-element:nth-child(3n):after {
     border-right-color: #2991d0;
 }
-
 .main-timeline .timeline-element:nth-child(4n) .timeline-content {
     background: #CC50C3;
 }
-
 .main-timeline .timeline-element:nth-child(4) .inner-content .title {
     color: #CC50C3;
 }
@@ -407,24 +350,19 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 .main-timeline .timeline-element:nth-child(4n) .inner-content {
     color: #CC50C3;
 }
-
 .main-timeline .timeline-element:nth-child(4n):after {
     border-left-color: #CC50C3;
 }
-
 .main-timeline .timeline-element:nth-child(5n) .timeline-content {
     background: #009D73;
 }
-
 .main-timeline .timeline-element:nth-child(5) .inner-content .title {
     color: #009D73;
 }
-
 .main-timeline .timeline-element:nth-child(5n),
 .main-timeline .timeline-element:nth-child(5n) .inner-content {
     color: #009D73;
 }
-
 .main-timeline .timeline-element:nth-child(5n):after {
     border-right-color: #009D73;
 }
@@ -527,12 +465,10 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
 .skills-content .col-lg-6 {
     width: 30%;
 }
-
 .skills-content h1 {
     text-align: center;
     margin-top: 1.25em;
 }
-
 .rounded-circle {
     width: 12.5em;
     height: 12.5em;
@@ -546,37 +482,29 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     border: 0.05em solid #475CDA;
     margin-top: 1.25em;
 }
-
 .skills-content a:nth-child(even) {
     margin-left: 1.5625em;
 }
-
 #html {
     background-image: url("../images/HTML.png");
 }
-
 #css3 {
     background-image: url("../images/CSS.png");
 }
-
 #python {
     background-image: url("../images/Python.png");
     background-size: 16em 16em;
     background-position: -1.25em -1.5625em;
 }
-
 #javascript {
     background-image: url("../images/Javascript.png");
 }
-
 #django {
     background-image: url("../images/Django.png");
 }
-
 #bootstrap {
     background-image: url("../images/Bootstrap.png");
 }
-
 #mongodb {
     background-image: url("../images/Mongo.png");
 }
@@ -595,17 +523,13 @@ Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0
     padding-top: 0.0em;
     border: 0.5em solid #0076E8;
     height: 100%;
-
 }
-
 .contact-page-content2 {
     padding: 1em;
 }
-
 .contact-page-filler {
     margin-top: 10.5em;
 }
-
 #msg.form-control {
     height: 6.25em;
 }
