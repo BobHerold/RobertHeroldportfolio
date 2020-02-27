@@ -65,6 +65,8 @@ with the goal of presenting information to potential employers/recruiters who wi
  9. **Chrome DevTools:**   A set of web developer tools built directly into the Google Chrome browser.  I used these tools constantly thoughout the development cycle.    https://developers.google.com/web/tools/chrome-devtools
 
  10.  **W3C Markup Validation Service**  Used to run all html and css code thru a validation process looking for errors; https://validator.w3.org/
+ https://jigsaw.w3.org/css-validator/validator
+
 
 
 
@@ -90,14 +92,13 @@ with the goal of presenting information to potential employers/recruiters who wi
 
      4.  When you do hit the Submit button, the default e-mail program for your PC will open right up, or on smartphones it asks you which e-mail program you want to use to send the e-mail.  It will populate your e-mail for you, and will automatedly send me the e-mail, as my address populates also.  I have received many e-mails successfully testing this process.
 
- 4.  **Open Issues:**  The most obvious issues I have seen in testing are shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
+ 5.  **Open Issues:**  The most obvious issues I have seen in testing are shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
   Due to time constraints on getting this project submitted I'm unable to address them right now.
 
  ![Apple smartphone image](assets/images/Bugs.png)
 
  ![765 viewport image](assets/images/Bugs2.PNG)
 
- 5.  
 
          
 ## Deployment
@@ -137,7 +138,7 @@ To continue with cloning, you would;
 
    2. Colorspace for my final color palette;  https://mycolor.space/
 
-   3. Used https://tinyjpg.com/   to compress .jpg images down to smaller size for better more efficient loading of web site.
+   3. Used https://tinyjpg.com/   To compress .jpg images down to smaller size for better more efficient loading of web site.
 
    4. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
    http://ami.responsivedesign.is/
@@ -146,15 +147,20 @@ To continue with cloning, you would;
 
    6. Font Awesome for hamburg icon; https://fontawesome.com/
 
+   7. https://stackoverflow.com/  Used as a resource for finding answers to all types of coding problems.
+
 
 ### Acknowledgements
 
 1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.  Richard Wells-lead on Slack's User-Centric Channel for his informative Slack calls on creating Milestone 1 projects.
 
-2. Mentor Sandeep Aggarwal for site architecture inspiration and great advice.
+2. Code Institute's Slack Channels and the many alunni,mentors, tutors and users who contribute to them; the many pinned announcements, pdf files, etc. were of great help.
+https://app.slack.com/client/T0L30B202/C0L316Z96
+
+3. Mentor Sandeep Aggarwal for site architecture inspiration, programming help and great advice.
 https://www.linkedin.com/in/asandeepme/
 
-3. My son Dakota Herold for his programming recommendations and advice.
+4. My son Dakota Herold for his programming recommendations, photo shopping my logos to make them transparent and uniform in size, and advice.
 https://www.linkedin.com/in/dakotaherold/
 
 
