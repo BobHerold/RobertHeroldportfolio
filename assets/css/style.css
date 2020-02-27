@@ -10,8 +10,6 @@ body {
     flex-direction: column;
 }
 
-
-
 /*-------------------Navbar----------------------*/
 
 .navbar,.navbar-nav  {
@@ -57,7 +55,6 @@ body {
     position: relative;
     text-align: center;
     margin-top: 14.8em;
-    position: bottom;
     background-color: #2E3346;
 }
 .social-links li a i {
