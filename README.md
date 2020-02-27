@@ -23,7 +23,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
 ### Existing Features
 
-  * __Home page__ - A picture and brief introduction to myself.
+  * __Home page__ - A picture and brief introduction to myself. Clicking on my name at top left on any page on the site will always bring you back to Home page.
 
   * __Skills__ -Allows the user to see my current coding skill set. When a user clicks on any one of the logos on this page, it is hypelinked to a wikipedia info page about that skill.
 
