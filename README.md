@@ -64,6 +64,8 @@ with the goal of presenting information to potential employers/recruiters who wi
  
  9. **Chrome DevTools:**   A set of web developer tools built directly into the Google Chrome browser.  I used these tools constantly thoughout the development cycle.    https://developers.google.com/web/tools/chrome-devtools
 
+ 10.  **W3C Markup Validation Service**  Used to run all html and css code thru a validation process looking for errors; https://validator.w3.org/
+
 
 
  ## Testing
@@ -94,6 +96,8 @@ with the goal of presenting information to potential employers/recruiters who wi
  ![Apple smartphone image](assets/images/Bugs.png)
 
  ![765 viewport image](assets/images/Bugs2.PNG)
+
+ 5.  
 
          
 ## Deployment
