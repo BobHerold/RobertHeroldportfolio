@@ -25,7 +25,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
   * __Home page__ - A picture and brief introduction to myself. Clicking on my name at top left on any page on the site will always bring you back to Home page.
 
-  * __Skills__ -Allows the user to see my current coding skill set. When a user clicks on any one of the logos on this page, it is hypelinked to a wikipedia info page about that skill.
+  * __Skills__ -Allows the user to see my current coding skill set. When a user clicks on any one of the logos on this page, it is hyperlinked to a wikipedia info page about that skill.
 
   * __Experience__  -My career journey presented in a timeline fashion. Clicking on any of the corporate entities listed here, will immediately open up a seperate page linked to their corporate web site.
 
@@ -88,7 +88,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
      4.  When you do hit the Submit button, the default e-mail program for your PC will open right up, or on smartphones it asks you which e-mail program you want to use to send the e-mail.  It will populate your e-mail for you, and will automatedly send me the e-mail, as my address populates also.  I have received many e-mails successfully testing this process.
 
- 4.  **Open Issues:**  The most obvious issues I have seen in testing is shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
+ 4.  **Open Issues:**  The most obvious issues I have seen in testing are shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.
   Due to time constraints on getting this project submitted I'm unable to address them right now.
 
  ![Apple smartphone image](assets/images/Bugs.png)
@@ -123,7 +123,7 @@ To continue with cloning, you would;
    1. HTML & CSS Timeline code directly from;  Bootstrap 4.1.1 Snippet by Siddharth Panchal;  https://bootsnipp.com/snippets/Q0ppE "Timeline Using CSS"  Timeline Demo #11.
       Used on my Experience page.
 
-   2.  W3schools.com; for code used on e-mail form on Contact page.   
+   2.  W3schools.com; for code used on e-mail form on Contact page.     https://www.w3schools.com/
 
 
 ### Media
@@ -137,14 +137,14 @@ To continue with cloning, you would;
    4. Am I Responsive web site for checking responsiveness on all screen sizes;
    http://ami.responsivedesign.is/
 
-   5. W3schools.com; for code used on e-mail form; constantly referred to this web site for examples, explanations, their Pixel to Em Converter, etc.
+   5. W3schools.com; for code used on e-mail form; constantly referred to this web site for examples, explanations, their Pixel to Em Converter, etc. https://www.w3schools.com/
 
 
 ### Acknowledgements
 
 1. Code Institute Tutors; Anna for her many helpful posts and info on Slack for using Bootstrap, Milestone projects, etc.  Stephen and Haley also.  Richard Wells-lead on Slack's User-Centric Channel for his informative Slack calls on creating Milestone 1 projects.
 
-2. Mentor Sandeep Aggarwal for site architecture inspiration and advice.
+2. Mentor Sandeep Aggarwal for site architecture inspiration and great advice.
 https://www.linkedin.com/in/asandeepme/
 
 3. My son Dakota Herold for his programming recommendations and advice.
