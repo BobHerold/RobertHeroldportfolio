@@ -92,7 +92,7 @@ with the goal of presenting information to potential employers/recruiters who wi
 
      4.  When you do hit the Submit button, the default e-mail program for your PC will open right up, or on smartphones it asks you which e-mail program you want to use to send the e-mail.  It will populate your e-mail for you, and will automatedly send me the e-mail, as my address populates also.  I have received many e-mails successfully testing this process.
 
- 5.  **Open Issues:**  The most obvious issues I have seen in testing are shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.  Also, on some pages there is too much spacing resulting in an unnecessary vertical scroll bar.
+ 5.  **Open Issues:**  The most obvious issues I have seen in testing are shown below circled in red. On Viewports starting at 765 x 850, on the Experience page, the Timeline seems to have a 2nd connecting white line connecting the companie's content elements, as well as a slightly different colored arrow (not all) pointing to the main timeline, and the circular dot on the timeline is lightly cut off on the left side of the circle.  Also, on the Contact page there is too much spacing resulting in an unnecessary vertical scroll bar.
   Due to time constraints on getting this project submitted I'm unable to address them right now.
 
  ![Apple smartphone image](assets/images/Bugs.png)
